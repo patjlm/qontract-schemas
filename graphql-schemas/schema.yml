@@ -745,6 +745,7 @@ confs:
   - { name: cluster, type: Cluster_v1, isRequired: true }
   - { name: description, type: string }
   - { name: manageRoutes, type: boolean }
+  - { name: remoteVpcDnsResolution, type: boolean }
   - { name: delete, type: boolean }
   - { name: assumeRole, type: string }
 
@@ -757,6 +758,7 @@ confs:
   - { name: awsInfrastructureManagementAccount, type: AWSAccount_v1 }
   - { name: description, type: string }
   - { name: manageRoutes, type: boolean }
+  - { name: remoteVpcDnsResolution, type: boolean }
   - { name: delete, type: boolean }
   - { name: assumeRole, type: string }
 

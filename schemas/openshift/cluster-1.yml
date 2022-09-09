@@ -326,6 +326,8 @@ properties:
               type: boolean
             manageSecurityGroups:
               type: boolean
+            remoteVpcDnsResolution:
+              type: boolean
             cidrBlock:
               type: string
             delete:
@@ -419,6 +421,8 @@ properties:
                 "$schemaRef": "/openshift/cluster-1.yml"
               manageRoutes:
                 type: boolean
+              remoteVpcDnsResolution:
+                type: boolean
               delete:
                 type: boolean
               assumeRole:
@@ -443,6 +447,8 @@ properties:
                 "$ref": "/common-1.json#/definitions/crossref"
                 "$schemaRef": "/aws/account-1.yml"
               manageRoutes:
+                type: boolean
+              remoteVpcDnsResolution:
                 type: boolean
               delete:
                 type: boolean
