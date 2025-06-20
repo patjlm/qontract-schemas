@@ -1,0 +1,3 @@
+mypy
+PyYAML
+types-PyYAML

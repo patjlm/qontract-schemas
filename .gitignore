@@ -3,3 +3,6 @@ data.json
 test/__pycache__/
 .DS_Store
 schemas/.DS_Store
+venv/
+hack/venv/
+hack/*cache__/
